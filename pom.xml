@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sharifulbony</groupId>
-    <artifactId>api-builder</artifactId>
+    <artifactId>ticketing-system</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>api-builder-application</name>
-    <description>API builder project</description>
+    <description>Ticketing System project</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -100,6 +100,19 @@
             <artifactId>jackson-core</artifactId>
             <version>2.9.9</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.codehaus.jackson</groupId>-->
+<!--            <artifactId>jackson-core-asl</artifactId>-->
+<!--            <version>1.7.5</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.codehaus.jackson</groupId>-->
+<!--            <artifactId>jackson-mapper-asl</artifactId>-->
+<!--            <version>1.7.5</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
         <!--        <dependency>-->
